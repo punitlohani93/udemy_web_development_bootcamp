@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+	<form>
+		<label for="firstName">First Name: </label>
+		<input id="firstName" type="text" name="firstName" required>
+		<label for="lastName">Last Name: </label>
+		<input id="lastName" type="text" name="lastName" required>
+		<br>
+		<label for="male">Male</label>
+		<input type="radio" name="gender" id="male">
+		<label for="female">Female</label>
+		<input type="radio" name="gender" id="female">
+		<label for="other">Other</label>
+		<input type="radio" name="gender" id="other">
+		<br>
+		<label for="email">Email: </label>
+		<input type="email" name="email" id="email" required>
+		<label for="password">Password: </label>
+		<input type="password" name="password" id="password" required pattern=".{5,}" maxlength="10">
+		<br>
+		<label for="birthday">Birthday: </label>
+		<select class="birthday" id="birth-month" name="birth-month">
+			<option>Month</option>
+			<option>January</option>
+			<option>February</option>
+		</select>
+		<select class="birthday" id="birth-day" name="birth-day">
+			<option>Day</option>
+			<option>1</option>
+			<option>2</option>
+		</select>
+		<select class="birthday" id="birth-year" name="birth-year">
+			<option>Year</option>
+			<option>1990</option>
+			<option>1991</option>
+		</select>
+		<br>
+		<label for="tnc">I agree to the terms and conditions</label>
+		<input type="checkbox" name="tnc" id="tnc">
+		<br>
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>
