@@ -12,19 +12,21 @@
         <input id="firstName" type="text" placeholder="John" name="firstName" required>
         <label for="lastName">Last Name: </label>
         <input id="lastName" type="text" placeholder="Smith" name="lastName" required>
-        <br>
+        <div>
         <label for="male">Male</label>
         <input type="radio" name="gender" id="male" value="male">
         <label for="female">Female</label>
         <input type="radio" name="gender" id="female" value="female">
         <label for="other">Other</label>
         <input type="radio" name="gender" id="other" value="other">
-        <br>
+        </div>
+        <div>
         <label for="email">Email: </label>
         <input type="email" placeholder="Your email" name="email" id="email" required>
         <label for="password">Password: </label>
         <input type="password" name="password" id="password" required title="Password must be between 5 to 10 characters" pattern=".{5,}" maxlength="10">
-        <br>
+        </div>
+        <div>
         <label>Birthday:
             <select id="birth-month" name="birth-month">
                 <option>Month</option>
@@ -42,11 +44,14 @@
                 <option>1991</option>
             </select>
         </label>
-        <br>
+        </div>
+        <div>
         <label for="tnc">I agree to the terms and conditions</label>
         <input type="checkbox" name="tnc" id="tnc">
-        <br>
+        </div>
+        <div>
         <button type="submit">Submit</button>
+        </div>
     </form>
 </body>
 
