@@ -1,9 +1,11 @@
 h1 {
 	text-align: center;	
 }
+
 h1, table {
 	margin: 40px auto;
 }
+
 td {
 	width: 100px;
 	height: 100px;
@@ -11,15 +13,13 @@ td {
 	border-style: solid;
 	border-width: 0px;
 }
-.middle-row.middle {
-	border-width: 1px;
-}
 
-.top-row.middle, .bottom-row.middle {
+.middle-column {
 	border-left-width: 1px;
 	border-right-width: 1px;
 }
-.middle-row:not(.middle) {
+
+.middle-row {
 	border-top-width: 1px;
 	border-bottom-width: 1px;
 }
