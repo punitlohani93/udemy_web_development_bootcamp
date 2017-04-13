@@ -1,0 +1,29 @@
+h1 {
+	text-align: center;	
+}
+h1, table {
+	margin: 40px auto;
+}
+td {
+	width: 100px;
+	height: 100px;
+	border-color: black;
+	border-style: solid;
+	border-width: 0px;
+}
+.middle-row.middle {
+	border-width: 2px;
+}
+
+.top-row.middle, .bottom-row.middle {
+	border-left-width: 2px;
+	border-right-width: 2px;
+}
+.middle-row:not(.middle) {
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+}
+
+/*.top-row, .middle-row {
+	border-bottom-width: 2px;
+}*/
