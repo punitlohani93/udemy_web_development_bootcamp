@@ -12,18 +12,14 @@ td {
 	border-width: 0px;
 }
 .middle-row.middle {
-	border-width: 2px;
+	border-width: 1px;
 }
 
 .top-row.middle, .bottom-row.middle {
-	border-left-width: 2px;
-	border-right-width: 2px;
+	border-left-width: 1px;
+	border-right-width: 1px;
 }
 .middle-row:not(.middle) {
-	border-top-width: 2px;
-	border-bottom-width: 2px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
 }
-
-/*.top-row, .middle-row {
-	border-bottom-width: 2px;
-}*/
